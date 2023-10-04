@@ -22,37 +22,61 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
+```sql
+CREATE TABLE student(roll_no NUMBER(5), name VARCHAR(20), age NUMBER(2), address VARCHAR(50), phone_no NUMBER(10));
+```
 
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/129932017/8b6457b6-ad87-4d24-8935-094e7c635464)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```sql
+ALTER TABLE student ADD department VARCHAR(10);
+```
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/129932017/e6d4208b-6dc6-4836-808a-5216126f26a8)
+
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
+```sql
+DROP TABLE student;
+```
 
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/129932017/5ce09cee-04c1-48e7-ac79-faeeb58a3aed)
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
+```sql
+TRUNCATE TABLE student;
+```
 
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/129932017/effc9433-ac76-46e2-90a8-1d04f4039a65)
+
 
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
+```sql
+ALTER TABLE student RENAME TO my_student;
+```
 
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/129932017/b73f2fa0-87c7-4233-add0-45b183db38b4)
+
